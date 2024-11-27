@@ -154,29 +154,29 @@ nav .right a span {
   font-size: 18px;
 }
 
-/* SECTION 3: Testimony */
-.testimony-section {
+/* SECTION 3: Projects */
+.Projects-section {
   padding: 0 50px;
   margin-bottom: 100px;
 }
 
-.testimony-section h2 {
+.Projects-section h2 {
   font-size: 35px;
   margin-bottom: 30px;
 }
 
-.testimony-section .group {
+.Projects-section .group {
   display: flex;
   align-items: center;
   gap: 50px;
 }
 
-.testimony-section .group .person-details {
+.Projects-section .group .person-details {
   text-align: center;
   flex: 2;
 }
 
-.testimony-section .group .person-details img {
+.Projects-section .group .person-details img {
   width: 200px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
@@ -184,15 +184,15 @@ nav .right a span {
   margin-bottom: 10px;
 }
 
-.testimony-section .group .person-details p {
+.Projects-section .group .person-details p {
   font-weight: 600;
 }
 
-.testimony-section .group .person-details p:last-child {
+.Projects-section .group .person-details p:last-child {
   font-weight: normal;
 }
 
-.testimony-section .group .text {
+.Projects-section .group .text {
   flex: 8;
 }
 
@@ -317,19 +317,23 @@ nav .right a span {
     width: 300px;
   }
 
-  /* SECTION 3: Testimony */
-  .testimony-section {
+  /* SECTION 3: Projects */
+  .Projects-section {
     text-align: center;
   }
 
-  .testimony-section .group {
+  .Projects-section .group {
     flex-direction: column;
   }
 
   /* SECTION 4: Experience */
-  /* .Experience-section .group {
+  .Experience-section {
+    text-align: center;
+  }
+
+  .Experience-section .group {
     flex-direction: column;
-  } */
+  }
 }
 
 @media (max-width: 600px) {
@@ -370,17 +374,13 @@ nav .right a span {
     font-size: 16px;
   }
 
-  /* SECTION 3: Testimony */
-  .testimony-section {
+  /* SECTION 3: Projects */
+  .Projects-section {
     padding: 0 20px;
   }
 
   /* SECTION 4: Experience */
-  /* .Experience-section {
+  .Experience-section {
     padding: 0 20px;
   }
-
-  .person-details img {
-    width: 80px;
-  } */
 }

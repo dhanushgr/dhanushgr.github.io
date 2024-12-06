@@ -189,6 +189,26 @@ nav .right a span {
   flex: 8;
 }
 
+.Projects-section .group .person-details span {
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  border: 3px solid gray;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  transition: 0.1s;
+}
+
+.Projects-section .group .person-details a {
+  color: var(--text-color);
+}
+
+.Projects-section .group .person-details a:hover {
+  color: var(--link-color);
+}
+
 .person-details img {
   width: 100px;
   height: auto;
@@ -241,9 +261,25 @@ nav .right a span {
   flex: 8;
 }
 
-.Experience-section .group form button:hover {
-  filter: brightness(0.9);
-} */
+.Experience-section .group .person-details span {
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  border: 3px solid gray;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  transition: 0.2s;
+}
+
+.Experience-section .group .person-details a {
+  color: var(--text-color);
+}
+
+.Experience-section .group .person-details a:hover {
+  color: var(--link-color);
+}
 
 @media (max-width: 850px) {
   /* SECTION 1: Hero */
